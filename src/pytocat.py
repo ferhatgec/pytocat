@@ -23,7 +23,7 @@ def ReadFile(filename):
             languages.CPlusPlus(line)
     else:
         for line in lines: 
-            print(line)
+            languages.Regular(line)
 	
 def HelpFunction(argument):
     PrintWith(Colorize(BOLD, RED), "Fegeya ")

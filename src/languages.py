@@ -4,8 +4,27 @@
 # Distributed under the terms of the MIT License.
 #
 #
-
 from lib.colorized import *   
+
+def Regular(line):
+    line = line.replace("int", WBOLD_BLUE_COLOR + "int" + WBLACK_COLOR)
+    line = line.replace("long", WBOLD_BLUE_COLOR + "long" + WBLACK_COLOR)
+    line = line.replace("bool", WBOLD_BLUE_COLOR + "bool" + WBLACK_COLOR)
+    line = line.replace("char", WBOLD_BLUE_COLOR + "char" + WBLACK_COLOR)
+    line = line.replace("const", WBOLD_LIGHT_BLUE_COLOR + "const" + WBLACK_COLOR)
+    line = line.replace("void", WBOLD_RED_COLOR + "void" + WBLACK_COLOR)
+    
+    line = line.replace("::", WBOLD_LIGHT_YELLOW_COLOR + "::" + WBLACK_COLOR)
+    line = line.replace("{", WBOLD_LIGHT_YELLOW_COLOR + "{" + WBLACK_COLOR)
+    line = line.replace("}", WBOLD_LIGHT_YELLOW_COLOR + "}" + WBLACK_COLOR)
+    line = line.replace("(", WBOLD_LIGHT_YELLOW_COLOR + "(" + WBLACK_COLOR)
+    line = line.replace(")", WBOLD_LIGHT_YELLOW_COLOR + ")" + WBLACK_COLOR)
+    line = line.replace("*", WBOLD_LIGHT_YELLOW_COLOR + "*" + WBLACK_COLOR)
+    line = line.replace("<", WBOLD_LIGHT_YELLOW_COLOR + "<" + WBLACK_COLOR)
+    line = line.replace(">", WBOLD_LIGHT_YELLOW_COLOR + ">" + WBLACK_COLOR)
+    line = line.replace("+", WBOLD_LIGHT_YELLOW_COLOR + "+" + WBLACK_COLOR)
+    
+    print(line, end='')
 
 def CPlusPlus(line):
     line = line.replace("int", WBOLD_BLUE_COLOR + "int" + WBLACK_COLOR)
