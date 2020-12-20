@@ -91,95 +91,96 @@ LIGHT_WHITE = 97
 
 # Pre-defined colors.
 def RED_COLOR(): 
-	print("\033[0;31m");
+	print("\033[0;31m", end='')
 	
 def GREEN_COLOR(): 
-	print("\033[0;32m");
+	print("\033[0;32m", end='')
 
 def YELLOW_COLOR():
-	print("\033[0;33m");
+	print("\033[0;33m", end='')
 
 def BLUE_COLOR():
-	print("\033[0;34m");
+	print("\033[0;34m", end='')
 
 def MAGENTA_COLOR():
-	print("\033[0;35m");
+	print("\033[0;35m", end='')
 	
 def CYAN_COLOR():
-	print("\033[0;36m");
+	print("\033[0;36m", end='')
 
 def LIGHT_BLACK_COLOR():
-	print("\033[0;90m");
+	print("\033[0;90m", end='')
 	
 def LIGHT_RED_COLOR():
-	print("\033[0;91m");
+	print("\033[0;91m", end='')
 
 def LIGHT_GREEN_COLOR():
-	print("\033[0;92m");
+	print("\033[0;92m", end='')
 
 def LIGHT_YELLOW_COLOR():
-	print("\033[0;93m");
+	print("\033[0;93m", end='')
 
 def LIGHT_BLUE_COLOR():
-	print("\033[0;94m");
+	print("\033[0;94m", end='')
 
 def LIGHT_MAGENTA_COLOR():
-	print("\033[0;95m");
+	print("\033[0;95m", end='')
 
 def LIGHT_CYAN_COLOR():
-	print("\033[0;96m");
+	print("\033[0;96m", end='')
 
 def LIGHT_WHITE_COLOR():
-	print("\033[0;97m");
+	print("\033[0;97m", end='')
 
 # Default bold** color definitions
 def BOLD_RED_COLOR():
-	print("\033[1;31m");
+	print("\033[1;31m", end='')
 
 def BOLD_GREEN_COLOR():
-	print("\033[1;32m");
+	print("\033[1;32m", end='')
 
 def BOLD_YELLOW_COLOR():
-	print("\033[01;33m");
+	print("\033[01;33m", end='')
 
 def BOLD_BLUE_COLOR():
-	print("\033[1;34m");
+	print("\033[1;34m", end='')
 
 def BOLD_MAGENTA_COLOR():
-	print("\033[1;35m");
+	print("\033[1;35m", end='')
 	
 def BOLD_CYAN_COLOR(): 
-	print("\033[1;36m");
+	print("\033[1;36m", end='')
+	
 def BOLD_LIGHT_BLACK_COLOR():
-	print("\033[1;90m");
+	print("\033[1;90m", end='')
 	
 def BOLD_LIGHT_RED_COLOR(): 
-	print("\033[1;91m");
+	print("\033[1;91m", end='')
 
 def BOLD_LIGHT_GREEN_COLOR(): 
-	print("\033[1;92m");
+	print("\033[1;92m", end='')
 
 def BOLD_LIGHT_YELLOW_COLOR():
-	print("\033[1;93m");
+	print("\033[1;93m", end='')
 
 def BOLD_LIGHT_BLUE_COLOR():
-	print("\033[1;94m");
+	print("\033[1;94m", end='')
 
 def BOLD_LIGHT_MAGENTA_COLOR():
-	print("\033[1;95m");
+	print("\033[1;95m", end='')
 
 def BOLD_LIGHT_CYAN_COLOR():
-	print("\033[1;96m");
+	print("\033[1;96m", end='')
 
 def BOLD_LIGHT_WHITE_COLOR():
-	print("\033[1;97m");
+	print("\033[1;97m", end='')
 
 # Reset (BLACK)
 def BLACK_COLOR():
-	print("\033[0m");
+	print("\033[0m", end='')
 
 def WHITE_COLOR():
-	print("\033[1;37m");
+	print("\033[1;37m", end='')
 
 # Default color definitions without printlnf
 WRED_COLOR = "\033[0;31m"
